@@ -25,6 +25,7 @@ public class DeleteServlet extends HttpServlet
 		
 		try 
 		{
+			//This is just comment.
 			 
 			String stringid = request.getParameter("id");
 			int converted_id = Integer.parseInt(stringid);
